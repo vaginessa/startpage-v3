@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    link(type='text/css' rel='stylesheet' href='css/main.css')
+    title Start
+  
+  body
+    // TODO: these should be JS objects
+    .contentContainer
+      .card(class='weather')
+        .overlay
+        .content
+          #location
+          #weatherIcon
+          #weather
+      .separator
+      each val in ['https://amazon.com','https://chase.com','http://codepen.io','http://github.com','http://developers.google.com','http://groupon.com','http://jackthreads.com','http://linkedin.com','https://mint.com','http://reddit.com','http://sitepoint.com','https://simple.com','http://soundcloud.com','http://wwwhere.io','http://youtube.com','https://web-development.zeef.com/eduardo.bilk']
+          .card
+            a(href=val)
+            .logo
+          
+script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+script(type='text/javascript', src='http://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js')
+script(type='text/javascript', src='js/weather.js')
