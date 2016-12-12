@@ -51,6 +51,15 @@ gulp.task('scripts', function(){
   .pipe(connect.reload());
 });
 
+// controllers
+gulp.task('subscripts', function(){
+  gulp.src('js/controllers/*.js')
+  .pipe(uglify())
+  .on('error', logError)
+  .pipe(gulp.dest('build/js/controllers'))
+  .pipe(connect.reload());
+})
+
 // updates index.html from its jade file
 gulp.task('updateIndex', function(){
   gulp.src('index.jade')
@@ -69,7 +78,7 @@ gulp.task('watch', function(){
 });
 
 // default gulp task
-gulp.task('default', ['connect', 'imageCompress', 'jade', 'sass', 'scripts', 'updateIndex', 'watch']);
+gulp.task('default', ['connect', 'imageCompress', 'jade', 'sass', 'scripts', 'subscripts', 'updateIndex', 'watch']);
 
 
 // other functions
