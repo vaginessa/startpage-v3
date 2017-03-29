@@ -97,7 +97,7 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Wayfair',
-      url: 'https://www.waiyfair.com',
+      url: 'https://www.wayfair.com',
       image: 'img/wayfair.png'
     },
     {
