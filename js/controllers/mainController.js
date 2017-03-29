@@ -6,8 +6,13 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/amazon.png'
     },
     {
+      title: 'CB2',
+      url: 'https://www.cb2.com',
+      image: 'img/cb2.png'
+    },
+    {
       title: 'Chase',
-      url: 'http://www.chase.com',
+      url: 'https://www.chase.com',
       image: 'img/chase.png'
     },
     {
@@ -39,6 +44,11 @@ app.controller('mainController', ['$scope', function($scope){
       title: 'Groupon',
       url: 'http://www.groupon.com',
       image: 'img/groupon.png'
+    },
+    {
+      title: 'Ikea',
+      url: 'http://www.ikea.com/us/en/',
+      image: 'img/ikea.png'
     },
     {
       title: 'Jack Threads',
@@ -86,6 +96,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/thinkster.png'
     },
     {
+      title: 'Wayfair',
+      url: 'https://www.waiyfair.com',
+      image: 'img/wayfair.png'
+    },
+    {
       title: 'Wwwhere',
       url: 'http://www.wwwhere.io',
       image: 'img/wwwhere.png'
@@ -94,6 +109,11 @@ app.controller('mainController', ['$scope', function($scope){
       title: 'YouTube',
       url: 'http://www.youtube.com',
       image: 'img/youtube.png'
+    },
+    {
+      title: 'Zappos',
+      url: 'http://www.zappos.com',
+      image: 'img/zappos.png'
     },
     {
       title: 'Zeef',
