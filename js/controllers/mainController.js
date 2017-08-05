@@ -31,14 +31,29 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/espn.png'
     },
     {
+      title: 'Free Code Camp',
+      url: 'https://www.freecodecamp.com',
+      image: 'img/freecodecamp.png'
+    },
+    {
       title: 'Github',
       url: 'http://www.github.com',
-      image: 'img/octobiwan.jpg'
+      image: 'img/github.png'
+    },
+    {
+      title: 'Gmail',
+      url: 'https://mail.google.com',
+      image: 'img/gmail.png'
     },
     {
       title: 'Google Dev',
       url: 'http://developers.google.com',
       image: 'img/google-dev.png'
+    },
+    {
+      title: 'Google Drive',
+      url: 'https://drive.google.com',
+      image: 'img/googledrive.png'
     },
     {
       title: 'Groupon',
@@ -66,9 +81,9 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/mint.png'
     },
     {
-      title: 'NicelyDone',
-      url: 'http://www.nicelydone.club',
-      image: 'img/nicelydone.png'
+      title: 'Mozilla Developer Network',
+      url: 'https://developer.mozilla.org',
+      image: 'img/mdn.jpg'
     },
     {
       title: 'Reddit',
@@ -83,7 +98,7 @@ app.controller('mainController', ['$scope', function($scope){
     {
       title: 'Sitepoint',
       url: 'http://www.sitepoint.com',
-      image: 'img/sitepoint.jpg'
+      image: 'img/sitepoint.png'
     },
     {
       title: 'SoundCloud',
@@ -94,6 +109,11 @@ app.controller('mainController', ['$scope', function($scope){
       title: 'Thinkster',
       url: 'http://www.thinkster.io',
       image: 'img/thinkster.png'
+    },
+    {
+      title: 'Udacity',
+      url: 'https://www.udacity.com',
+      image: 'img/udacity.png'
     },
     {
       title: 'Wayfair',
