@@ -2,7 +2,7 @@ app.controller('mainController', ['$scope', function($scope){
   $scope.cards = [
     {
       title: 'Amazon',
-      url: 'http://www.amazon.com',
+      url: 'https://www.amazon.com',
       image: 'img/amazon.png'
     },
     {
@@ -17,17 +17,17 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Codecademy',
-      url: 'http://www.codecademy.com',
+      url: 'https://www.codecademy.com',
       image: 'img/codecademy.png'
     },
     {
       title: 'Codepen',
-      url: 'http://www.codepen.io',
+      url: 'https://www.codepen.io',
       image: 'img/codepen.png'
     },
     {
       title: 'ESPN',
-      url: 'http://www.espn.com',
+      url: 'https://www.espn.com',
       image: 'img/espn.png'
     },
     {
@@ -37,7 +37,7 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Github',
-      url: 'http://www.github.com',
+      url: 'https://www.github.com',
       image: 'img/github.png'
     },
     {
@@ -57,27 +57,32 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Groupon',
-      url: 'http://www.groupon.com',
+      url: 'https://www.groupon.com',
       image: 'img/groupon.png'
     },
     {
       title: 'Ikea',
-      url: 'http://www.ikea.com/us/en/',
+      url: 'https://www.ikea.com/us/en/',
       image: 'img/ikea.png'
     },
     {
       title: 'Jack Threads',
-      url: 'http://www.jackthreads.com',
+      url: 'https://www.jackthreads.com',
       image: 'img/jackthreads.png'
     },
     {
+      title: 'Khan Academy',
+      url: 'https://www.khanacademy.org/',
+      image: 'img/khanacademy.jpg'
+    },
+    {
       title: 'Linkedin',
-      url: 'http://www.linkedin.com',
+      url: 'https://www.linkedin.com',
       image: 'img/linkedin.png'
     },
     {
       title: 'Mint',
-      url: 'http://www.mint.com',
+      url: 'https://www.mint.com',
       image: 'img/mint.png'
     },
     {
@@ -87,27 +92,27 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Reddit',
-      url: 'http://www.reddit.com',
+      url: 'https://www.reddit.com',
       image: 'img/reddit.png'
     },
     {
       title: 'Simple',
-      url: 'http://www.simple.com',
+      url: 'https://www.simple.com',
       image: 'img/simple.png'
     },
     {
       title: 'Sitepoint',
-      url: 'http://www.sitepoint.com',
+      url: 'https://www.sitepoint.com',
       image: 'img/sitepoint.png'
     },
     {
       title: 'SoundCloud',
-      url: 'http://www.soundcloud.com',
+      url: 'https://www.soundcloud.com',
       image: 'img/soundcloud.png'
     },
     {
       title: 'Thinkster',
-      url: 'http://www.thinkster.io',
+      url: 'https://www.thinkster.io',
       image: 'img/thinkster.png'
     },
     {
@@ -122,17 +127,17 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Wwwhere',
-      url: 'http://www.wwwhere.io',
+      url: 'https://www.wwwhere.io',
       image: 'img/wwwhere.png'
     },
     {
       title: 'YouTube',
-      url: 'http://www.youtube.com',
+      url: 'https://www.youtube.com',
       image: 'img/youtube.png'
     },
     {
       title: 'Zappos',
-      url: 'http://www.zappos.com',
+      url: 'https://www.zappos.com',
       image: 'img/zappos.png'
     },
     {
