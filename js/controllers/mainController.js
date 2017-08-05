@@ -6,6 +6,16 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/amazon.png'
     },
     {
+      title: 'Banana Republic',
+      url: 'http://www.bananarepublic.com',
+      image: 'img/bananarepublic.png'
+    },
+    {
+      title: 'Best Buy',
+      url: 'https://www.bestbuy.com',
+      image: 'img/bestbuy.png'
+    },
+    {
       title: 'CB2',
       url: 'https://www.cb2.com',
       image: 'img/cb2.png'
@@ -109,6 +119,11 @@ app.controller('mainController', ['$scope', function($scope){
       title: 'SoundCloud',
       url: 'https://www.soundcloud.com',
       image: 'img/soundcloud.png'
+    },
+    {
+      title: 'Structube',
+      url: 'https://www.structube.com/us',
+      image: 'img/structube.png'
     },
     {
       title: 'Thinkster',

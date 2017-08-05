@@ -27,7 +27,7 @@ gulp.task('jade', function(){
   gulp.src('jade/*.jade')
   .pipe(jade())
   .on('error', logError)
-  .pipe(gulp.dest('build/html'))
+  .pipe(gulp.dest('build/index.html'))
   .pipe(connect.reload());
 });
 
