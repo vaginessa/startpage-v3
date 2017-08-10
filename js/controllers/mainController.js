@@ -131,6 +131,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/thinkster.png'
     },
     {
+      title: 'TopCoder',
+      url: 'https://www.topcoder.com/my-dashboard/',
+      image: 'img/topcoder.png'
+    },
+    {
       title: 'Udacity',
       url: 'https://www.udacity.com',
       image: 'img/udacity.png'
