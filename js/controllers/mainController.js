@@ -86,6 +86,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/khanacademy.jpg'
     },
     {
+      title: 'LeetCode',
+      url: 'https://leetcode.com/',
+      image: 'img/leetcode.png'
+    },
+    {
       title: 'Linkedin',
       url: 'https://www.linkedin.com',
       image: 'img/linkedin.png'
