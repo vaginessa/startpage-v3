@@ -146,6 +146,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/udacity.png'
     },
     {
+      title: 'Ultimate Guitar',
+      url: 'https://www.ultimate-guitar.com',
+      image: 'img/ultimate-guitar.png'
+    },
+    {
       title: 'Wayfair',
       url: 'https://www.wayfair.com',
       image: 'img/wayfair.png'
