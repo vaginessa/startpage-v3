@@ -72,7 +72,7 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Ikea',
-      url: 'https://www.ikea.com/us/en/',
+      url: 'http://www.ikea.com/us/en/',
       image: 'img/ikea.png'
     },
     {
@@ -157,7 +157,7 @@ app.controller('mainController', ['$scope', function($scope){
     },
     {
       title: 'Wwwhere',
-      url: 'https://www.wwwhere.io',
+      url: 'http://www.wwwhere.io',
       image: 'img/wwwhere.png'
     },
     {
