@@ -80,7 +80,6 @@ gulp.task('watch', function(){
 // default gulp task
 gulp.task('default', ['connect', 'imageCompress', 'jade', 'sass', 'scripts', 'subscripts', 'updateIndex', 'watch']);
 
-
 // other functions
 function logError(error){
   console.error.bind(error);

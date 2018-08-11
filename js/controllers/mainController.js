@@ -111,6 +111,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/reddit.png'
     },
     {
+      title: 'Robinhood',
+      url: 'https://www.robinhood.com',
+      image: 'img/robinhood.png'
+    },
+    {
       title: 'Simple',
       url: 'https://www.simple.com',
       image: 'img/simple.png'
