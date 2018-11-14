@@ -96,6 +96,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/linkedin.png'
     },
     {
+      title: 'Microsoft Developer Network',
+      url: 'https://msdn.microsoft.com/en-us/',
+      image: 'img/microsoft.png'
+    },
+    {
       title: 'Mint',
       url: 'https://www.mint.com',
       image: 'img/mint.png'
