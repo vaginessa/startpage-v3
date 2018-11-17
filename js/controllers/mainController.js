@@ -156,6 +156,11 @@ app.controller('mainController', ['$scope', function($scope){
       image: 'img/udacity.png'
     },
     {
+      title: 'Udemy',
+      url: 'https://www.udemy.com',
+      image: 'img/udemy.png'
+    },
+    {
       title: 'Ultimate Guitar',
       url: 'https://www.ultimate-guitar.com',
       image: 'img/ultimate-guitar.png'
